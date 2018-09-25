@@ -1,0 +1,62 @@
+.Assets > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2px auto;
+}
+
+.Assets > div > div {
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 4px;
+  margin: 8px 5px;
+  width: 45%;
+}
+
+.assetsCardheader {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px 5px;
+  text-align: left;
+}
+
+.assetsDropdown {
+  display: flex;
+  margin: 7px 27px;
+}
+
+.assetHeaderIcons > i {
+  margin: auto 5px;
+}
+
+.assetHeaderIcons {
+  font-size: 1.2em;
+}
+
+.houseAddress > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+}
+
+.alignleft {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.marginLeft {
+  margin-left: 4em;
+}
+
+.border {
+  border: 2px solid #2f7abb;
+}

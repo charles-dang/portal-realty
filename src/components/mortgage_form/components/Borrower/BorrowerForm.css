@@ -1,0 +1,71 @@
+.borrowerformGroup {
+  margin: 5px 2px;
+}
+
+.nameDiv input {
+  margin: 0px 2px;
+}
+
+.marriageRadio {
+  display: flex;
+  padding: 0px;
+}
+
+.validate {
+  border-color: red;
+}
+/* .nameDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+} */
+/* .dobDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.dobDiv>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.dobDiv>div>input{
+    width: 77%;
+} */
+
+/* .marriageDiv{
+    display: flex;
+    justify-content: space-between
+} */
+/* .marriageControlLabel{
+    margin: 5px;
+} */
+
+/* .emailDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.emailDiv>input{
+    width: 90%;
+    margin: 5px
+} */
+
+/* .phoneDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.phoneDiv>input{
+    width: 90%;
+    margin: 5px
+}
+.educationDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.educationDiv>select{
+    width: 85%;
+    margin: 5px;
+} */

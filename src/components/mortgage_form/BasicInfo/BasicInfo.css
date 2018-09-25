@@ -1,0 +1,31 @@
+.basicInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.borrower {
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 4px;
+  height: 100%;
+  margin: 2px 5px;
+  width: 50%;
+}
+
+.coBorrower {
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 4px;
+  height: 100%;
+  margin: 2px 5px;
+  width: 50%;
+}
+
+.borrower-head {
+  background-color: #eee;
+  margin: 0;
+  padding: 10px 5px;
+  text-align: left;
+}
+
+p {
+  margin: 0 !important;
+}

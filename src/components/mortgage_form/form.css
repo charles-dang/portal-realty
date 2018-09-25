@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.col-md-3 {
+  text-align: left !important;
+}
+
+.tabs {
+  margin: 2% 5%;
+}
+
+.main-tabs > a {
+  font-weight: bold;
+  color: #2f7abb;
+  padding: 10px 82px !important;
+}
+
+.extra-padding-tab > a {
+  padding: 10px 89px !important;
+}
+.main-tabs-left-border {
+  border-left: 1px solid #ddd;
+}
+.main-tabs-right-border {
+  border-right: 1px solid #ddd;
+}
+
+/* Bootstrap defined classes */
+
+.tab-content {
+  margin-top: 10px;
+}
+
+.nav-tabs {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+}
+
+.nav-tabs > li {
+  flex: 1;
+}
+
+.nav-tabs > li > a {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  line-height: inherit;
+  margin: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: none !important;
+  background-color: #eee !important;
+  color: #2f7abb !important;
+}
+.fa-angle-double-left {
+  margin: auto;
+}
+.basic_info-span {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.validationTab {
+  padding: 15px;
+  font-size: 1.2em;
+  border: 1px solid #e66944;
+  margin: 10px 10%;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #d02f07;
+  text-align: left;
+}
+
+.pager {
+  font-size: 20px;
+}
+
+.PagerTab {
+  padding: 15px;
+  border: 1px solid #eee;
+  margin: 5% 10%;
+  border-radius: 4px;
+  color: #2f7abb;
+  text-align: left;
+}
+
+.pager li > a,
+.pager li > span {
+  padding: 10px 186px !important;
+}
+
+@media only screen and (max-width: 1125px) {
+  .extra-padding-tab > a {
+    padding: 10px 50px !important;
+  }
+  .main-tabs > a {
+    padding: 10px 58px !important;
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+  .extra-padding-tab > a {
+    padding: 10px 40px !important;
+  }
+  .main-tabs > a {
+    padding: 10px 48px !important;
+  }
+}

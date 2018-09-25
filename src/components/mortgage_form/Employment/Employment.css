@@ -1,0 +1,30 @@
+.employment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.borrower {
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 4px;
+  margin: 2px 5px;
+  width: 50%;
+  height: 100%;
+}
+
+.coBorrower {
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 4px;
+  margin: 2px 5px;
+  width: 50%;
+  height: 100%;
+}
+
+.employer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.employer-head > i {
+  margin: auto 5px;
+  font-size: 2em;
+}

@@ -6,6 +6,10 @@ import config from "../config/config.js";
 import { s3Upload } from "../libs/awsLib";
 import "./NewNote.css";
 
+
+//
+import LoanForm from "../components/mortgage_form/LoanForm"
+
 export default class NewNote extends Component {
   constructor(props) {
     super(props);
@@ -69,6 +73,7 @@ export default class NewNote extends Component {
   render() {
     return (
       <div className="NewNote">
+        <LoanForm />
         <form onSubmit={this.handleSubmit}>
           <FormGroup controlId="content">
             <FormControl

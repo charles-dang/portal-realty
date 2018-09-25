@@ -1,0 +1,7 @@
+.decDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.declaration_information_forms {
+  margin: 20px auto;
+}

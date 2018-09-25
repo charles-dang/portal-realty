@@ -8,14 +8,14 @@ import NotFound from "./containers/NotFound";
 import Login from "./containers/Login";
 import AppliedRoute from "./components/AppliedRoute";
 import Signup from "./containers/Signup";
-import NewNote from "./containers/NewNote";
+import NewLoan from "./containers/NewLoan";
 import Notes from "./containers/Notes";
 
 export default ({ childProps }) =>
   <Switch>
     <AuthenticatedRoute path="/" exact component={Home} props={childProps} />
     {/*<AppliedRoute path="/signup" exact component={Signup} props={childProps} /> */}
-    <AuthenticatedRoute path="/notes/new" exact component={NewNote} props={childProps} />
+    <AuthenticatedRoute path="/loan/new" exact component={NewLoan} props={childProps} />
     <AuthenticatedRoute path="/notes/:id" exact component={Notes} props={childProps} />
     <UnauthenticatedRoute path="/login" exact component={Login} props={childProps} />
     { /* Finally, catch all unmatched routes */ }

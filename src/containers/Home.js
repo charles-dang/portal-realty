@@ -45,11 +45,11 @@ export default class Home extends Component {
             </ListGroupItem>
           : <ListGroupItem
               key="new"
-              href="/notes/new"
+              href="/loan/new"
               onClick={this.handleNoteClick}
             >
               <h4>
-                <b>{"\uFF0B"}</b> Create a new note
+                <b>{"\uFF0B"}</b> Create New Loan Application
               </h4>
             </ListGroupItem>
     );
@@ -64,8 +64,8 @@ export default class Home extends Component {
   renderLander() {
     return (
       <div className="lander">
-        <h1>Scratch</h1>
-        <p>A simple note taking app</p>
+        <h1>Loan Portal</h1>
+        <p>Loan Portal</p>
       </div>
     );
   }
@@ -73,7 +73,7 @@ export default class Home extends Component {
   renderNotes() {
     return (
       <div className="notes">
-        <PageHeader>Your Notes</PageHeader>
+        <PageHeader>Your Loan Application</PageHeader>
         <ListGroup>
           {!this.state.isLoading && this.renderNotesList(this.state.notes)}
         </ListGroup>
